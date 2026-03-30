@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Ahsan 🤍</title>
+<style>
+body {
+  background: #ffe6f0;
+  text-align: center;
+  font-family: Arial;
+  padding: 50px;
+}
+h1 {
+  color: #ff4d88;
+}
+p {
+  font-size: 18px;
+  color: #333;
+  white-space: pre-line;
+}
+button {
+  background: #ff4d88;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>hey Ahsan... I made this for you 🤍</h1>
+
+<p>click below... only if you promise not to laugh</p>
+
+<button onclick="showMessage()">click me</button>
+
+<p id="message" class="hidden">
+i do not know how to say this Ahsan
+without breaking the quiet between us
+but you live somewhere in me
+not loudly
+not like a storm
+more like a promise that never asked to be made
+i like you
+in a way that feels like standing guard
+like i could be your shield
+even when you do not believe you need one
+you look at love like it is something that leaves
+like every hand that holds you is temporary
+like every warmth has an ending hidden inside it
+and i wish i could take that fear out of you
+hold it in my own chest instead
+because what i feel is not passing
+it is not a moment
+it does not flicker when things get heavy
+i am not here to go
+i am not another story that will stop halfway
+if you let me
+i will stay in the quiet parts
+in the days that feel empty
+in the nights that remind you of everything you lost
+i will stay
+not loudly
+not perfectly
+but truly
+and without leaving 🤍
+</p>
+
+<script>
+function showMessage() {
+  document.getElementById("message").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
